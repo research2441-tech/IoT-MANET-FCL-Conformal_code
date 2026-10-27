@@ -1,0 +1,62 @@
+--method proposed --seed 1 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method mlp --seed 1 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gru --seed 1 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method attn --seed 1
+--method gnn --seed 1
+--method gnn_gru --seed 1 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gnn_attn --seed 1
+--method lgbm --seed 1
+--method proposed --seed 2 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method mlp --seed 2 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gru --seed 2 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method attn --seed 2
+--method gnn --seed 2
+--method gnn_gru --seed 2 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gnn_attn --seed 2
+--method lgbm --seed 2
+--method proposed --seed 3 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method mlp --seed 3 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gru --seed 3 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method attn --seed 3
+--method gnn --seed 3
+--method gnn_gru --seed 3 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gnn_attn --seed 3
+--method lgbm --seed 3
+--method proposed --seed 4 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method mlp --seed 4 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gru --seed 4 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method attn --seed 4
+--method gnn --seed 4
+--method gnn_gru --seed 4 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gnn_attn --seed 4
+--method lgbm --seed 4
+--method proposed --seed 5 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method mlp --seed 5 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gru --seed 5 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method attn --seed 5
+--method gnn --seed 5
+--method gnn_gru --seed 5 --deploy "n_nodes=80;watchdog_noise=3;feature_missing=0.3"
+--method gnn_attn --seed 5
+--method lgbm --seed 5
+--method fl_local --seed 1
+--method fl_fedavg --seed 1
+--method fl_fedprox --seed 1
+--method fl_fedrep --seed 1
+--method fl_split --seed 1
+--method fl_central --seed 1
+--method cl_static --seed 1
+--method cl_finetune --seed 1
+--method ab_nossl --seed 1
+--method ab_noevid --seed 1
+--method ab_globalnorm --seed 1
+--method fl_local --seed 2
+--method fl_fedavg --seed 2
+--method fl_fedprox --seed 2
+--method fl_fedrep --seed 2
+--method fl_split --seed 2
+--method fl_central --seed 2
+--method cl_static --seed 2
+--method cl_finetune --seed 2
+--method ab_nossl --seed 2
+--method ab_noevid --seed 2
+--method ab_globalnorm --seed 2
